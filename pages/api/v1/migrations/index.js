@@ -1,4 +1,4 @@
-import migrationRunner from "node-pg-migrate";
+const migrationRunner = require("node-pg-migrate").default;
 import { join } from "node:path";
 import database from "infra/database.js";
 
